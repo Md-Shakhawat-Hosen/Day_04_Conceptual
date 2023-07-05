@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(81, 79, 79);
+    padding: 20px;
+    color:white;
+}
+.logo{
+    width: 150px;
+}
+.menus ul{
+    display: flex;
+    list-style: none;
+}
+.menus li{
+    margin-right: 10px;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+.menus li:hover{
+    color:blueviolet;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(49, 49, 49),rgb(32, 31, 31));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    height: 100vh;
+    padding: 20px;
+}
+.head-dis,.about-title{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial;
+    margin-bottom: 10px;
+}
+.banner-logo{
+    width: 350px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: brown;
+    margin-top: 10px;
+    color:white;
+    cursor: pointer;
+    border: none;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: row-reverse; */
+    height: 70vh;
+    padding: 20px;
+}
+/* .services-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+} */
+.service-card{
+    text-align: center;
+    background-color: rgb(94, 92, 92);
+    box-shadow: 10px 10px 20px tomato;
+    padding: 20px;
+    width: 300px;
+}
+.service-icon{
+    width: 100px;
+}
+.title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial;
+}
