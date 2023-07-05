@@ -20,6 +20,7 @@
 .menus li{
     margin-right: 10px;
     font-size: 20px;
+    font-family: Arial;
     padding: 10px;
     cursor: pointer;
 }
