@@ -101,3 +101,17 @@
 .foot{
     margin-top: 100px;
 }
+.copy-write{
+    height: 100px;
+    background-color: rgb(91, 67, 67);
+}
+.foot-write{
+    text-align: center;
+    padding: 20px;
+    font-family: Arial;
+    color: white;
+}
+.foot-link{
+    color:white;
+    font-family: Arial;
+}
